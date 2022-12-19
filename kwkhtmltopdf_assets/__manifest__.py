@@ -3,20 +3,15 @@
 
 
 {
-    "name": "Monitoring: Statsd Metrics",
-    "version": "15.0.1.0.0",
+    "name": "Kwkhtmltopdf: Asset fix",
+    "version": "16.0.1.0.0",
     "author": "Camptocamp,Odoo Community Association (OCA)",
     "license": "AGPL-3",
     "category": "category",
     "depends": [
         "base",
-        "web",
-        "server_environment",
     ],
     "website": "http://www.camptocamp.com",
     "data": [],
-    "external_dependencies": {
-        "python": ["statsd"],
-    },
-    "installable": False,
+    "installable": True,
 }
