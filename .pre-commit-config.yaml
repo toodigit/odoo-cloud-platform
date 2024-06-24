@@ -1,11 +1,7 @@
 exclude: |
   (?x)
   # NOT INSTALLABLE ADDONS
-  ^attachment_s3/|
-  ^attachment_swift/|
   ^base_fileurl_field/|
-  ^cloud_platform_exoscale/|
-  ^cloud_platform_ovh/|
   ^monitoring_log_requests/|
   ^monitoring_statsd/|
   ^test_base_fileurl_field/|
